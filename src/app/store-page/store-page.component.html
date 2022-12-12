@@ -1,0 +1,5 @@
+<h1>Rare flower market <i>Serving {{ database.length }} amount of flowers to you since 2022</i></h1>
+
+<div *ngFor="let storeItem of database">
+	<app-product [cost]=storeItem.cost [description]=storeItem.description [title]=storeItem.title [url]=storeItem.url (buy)="buyEvent($event)"></app-product>
+</div>

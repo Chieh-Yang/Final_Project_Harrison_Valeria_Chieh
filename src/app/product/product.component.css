@@ -1,0 +1,33 @@
+.button{
+    height: 50px;
+    width: 120px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.button:hover{
+    opacity: 80%;
+    font-size: 20px;
+    font-weight: 700;
+    height: 55px;
+    width: 125px;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    transition: 0.5s;
+}
+
+.image:hover{
+    opacity: 75%;
+}
