@@ -1,0 +1,31 @@
+p{
+    font-size: 20px;
+}
+
+img{
+margin: 10px 35px 10px 45px;
+}
+
+.homeImage {
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    transition: 0.5s;
+}
+
+.homeImage:hover{
+    opacity: 75%;
+}
+
+.imageContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bottomText{
+    text-align: center;
+}
+
+.pContainer{
+   text-align: center; 
+}
